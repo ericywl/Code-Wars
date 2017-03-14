@@ -8,7 +8,8 @@ def comp(array1, array2):
 				else:
 					output = False
 					break
-		else: output = False
+		else: 
+			output = False
 		return output
 	except:
 		return False
